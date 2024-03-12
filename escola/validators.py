@@ -5,4 +5,4 @@ def nome_invalido(nome):
     return not nome.isalpha()
 
 def celular_invalido(celular):
-    return len(celular) < 11
+    return len(celular) < 14
